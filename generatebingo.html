@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Generate Bingo Sheets</title>
+    <link rel="stylesheet" href="resources/styles.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <a href="index.html">Home</a>
+      <a href="wordlist.html">Word List</a>
+      <a href="callingcardgenerator.html">Calling Sheets</a>
+      <a href="generatebingo.html">Bingo Sheets</a>
+      <a href="#">About</a>
+    </div>
+
+      <h1>Baby Shower Bingo Generator</h1>
+
+      <label>How many Baby Shower BINGO's do you want to generate?</label>
+      </br>
+      <input "type="number" id="response">
+      <p id="dataValidation"></p>
+      <button type="button" onclick="inputValidation()"> Submit </button>
+      <button type="button" onclick="window.print();return false;" />Printer Friendly</button>
+
+      <div id="div1"> </div>
+
+  </body>
+
+  <script src="resources/script.js"></script>
+</html>

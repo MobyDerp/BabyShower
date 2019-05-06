@@ -1,0 +1,91 @@
+html, body, div, span, table, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
+body {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px;
+}
+
+* {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.Bingo {
+  font-size: 30px;
+  font-weight: bold;
+  letter-spacing: 80px;
+}
+
+.navbar {
+	background-color: #1a8bbc; color: white; /* blue background, white font */
+	padding: 14px 16px;
+}
+
+.navbar a {
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+table {
+    margin: 5px;
+    page-break-after:always;
+}
+
+table, tr, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 5mm;
+}
+
+tr, td {
+  font-size: 5mm;
+  text-align: center;
+  vertical-align: middle;
+  height: 100px;
+  width: 150px;
+  padding: 5px;
+}
+
+img {
+  margin: 35px;
+  width: 30%;
+  height: 30%;
+
+}
+
+button, button a {
+	background:  #4CAF50;
+	color: white;
+	border-radius: 8px;
+	padding: 15px;
+	font-size: 16px;
+	margin-top: 15px;
+	text-decoration: none;
+
+}
+
+#div2, .cols {
+  column-count: 3;
+}
+
+/* printing options */
+@page {
+  size: 8.5in 11in portrait;
+}
+
+@page :left {
+  margin-left: 1cm;
+}
+
+@page :right {
+  margin-left: 1cm;
+}
